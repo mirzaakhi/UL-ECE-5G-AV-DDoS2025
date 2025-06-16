@@ -56,7 +56,7 @@ csv_writer.writerow([
 
 
 # Attack parameters
-attack_types = ["Normal", "DoS_Attack", "Hijacked"]
+attack_types = ["Normal", "DDoS Attack", "Hijacked"]
 gps_attack_active = False
 control_attack_active = False
 speed = 0
@@ -82,7 +82,7 @@ imu_sensor.listen(lambda data: imu_callback(data))
 
 # Network metric simulator
 def simulate_network_metrics(attack_type):
-    if attack_type == "DoS_Attack":
+    if attack_type == "DDoS Attack":
         latency = random.uniform(100, 300)              # ms
         packet_loss = random.uniform(5, 20)             # %
         throughput = random.uniform(0.5, 2.0)           # Mbps
@@ -110,7 +110,7 @@ try:
 
         # Random attack choice
         attack = random.choice(attack_types)
-        if attack == "DoS_Attack":
+        if attack == "DDoS Attack":
             gps_attack_active = True 
         elif attack == "Hijacked":
             control.steer = random.uniform(-1, 1)
