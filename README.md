@@ -1,5 +1,8 @@
 # UL-ECE-5G-AV-DDoS2025
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.9999999.svg)](https://doi.org/10.5281/zenodo.9999999)
+
+
 This repository contains the simulation script and raw datasets associated with the proposed UL-ECE-5G-AV-DDoS2025 dataset from our ongoing research. The data is generated using the CARLA simulator to emulate autonomous vehicle (AV) behavior under normal and attack conditions in a 5G-enabled environment. 
 
 
