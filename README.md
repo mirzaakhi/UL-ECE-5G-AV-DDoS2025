@@ -11,14 +11,14 @@ This decision is made to focus the model training on detecting and differentiati
 
 
 ## 📁 Repository Structure 
-
+```
 UL-ECE-5G-AV-DDoS2025/
 ├── UL-ECE-5G-AV-DDoS2025.csv                     # Final processed dataset without Hijacked attack samples, used for training the proposed model
 ├── initial_raw_av_DDoSattack_dataset.csv         # Initial raw dataset used to generate the final processed dataset
 ├── regenerated_raw_av_DDoSattack_dataset.csv     # Raw dataset regenerated using the simulation script
 ├── av_attack_dataset_generator_carla.py          # CARLA-based simulation script for generating raw dataset
 └── README.md                                     # Project description and usage instructions
-
+```
 
 ## 📊 Dataset Structure
 
